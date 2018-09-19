@@ -90,7 +90,7 @@ chmod -R +x /etc/my_init.d/
 #########################################
 
 cd /tmp
-wget http://static.tp-link.com/resources/software/EAP_Controller_v2.5.3_linux_x64.tar.gz
-tar zxvf EAP_Controller_v2.5.3_linux_x64.tar.gz
-cd EAP_Controller_v2.5.3_linux_x64
+wget https://static.tp-link.com/2018/201809/20180907/Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
+tar zxvf Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
+cd Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
 echo yes | ./install.sh
