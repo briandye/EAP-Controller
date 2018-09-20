@@ -92,5 +92,5 @@ chmod -R +x /etc/my_init.d/
 cd /tmp
 wget https://static.tp-link.com/2018/201809/20180907/Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
 tar zxvf Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
-cd Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
+cd Omada_Controller_V3.0.2_Linux_x64_targz
 echo yes | ./install.sh
